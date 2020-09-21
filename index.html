@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
+      href="mobile.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Social Media Dashbord</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">
+        <h2 class="title">Social Media Dashbord</h2>
+        <p class="totalFollowers">Total Followers: 23,004</p>
+      </div>
+      <hr />
+      <div class="toggle">
+        <p class="darkMode">Dark Mode</p>
+        <button class="toggle-btn"></button>
+      </div>
+    </div>
+
+    <div class="cards-container">
+      <div class="card card-fb">
+        <div class="media">
+          <img src="/images/icon-facebook.svg" alt="logo de facebook" class="logo">
+          <p class="pseudo">@nathanf</p>
+        </div>
+        <h1 class="nbFollowers">1987</h1>
+        <p class="followers">FOLLOWERS</p>
+        <div class="today">
+          <img src="./images/icon-up.svg" alt="fleche vers le haut" class="up">
+          <p class="nbTodayUp">12 Today</p>
+        </div>
+      </div>
+
+      <div class="card card-twitter">
+        <div class="media">
+          <img src="/images/icon-twitter.svg" alt="logo de twitter" class="logo">
+          <p class="pseudo">@nathanf</p>
+        </div>
+        <h1 class="nbFollowers">1044</h1>
+        <p class="followers">FOLLOWERS</p>
+        <div class="today">
+          <img src="./images/icon-up.svg" alt="fleche vers le haut" class="up">
+          <p class="nbTodayUp">99 Today</p>
+        </div>
+      </div>
+
+      <div class="card card-insta">
+        <div class="media">
+          <img src="/images/icon-instagram.svg" alt="logo d'instagram" class="logo">
+          <p class="pseudo">@realnathanf</p>
+        </div>
+        <h1 class="nbFollowers">11k</h1>
+        <p class="followers">FOLLOWERS</p>
+        <div class="today">
+          <img src="./images/icon-up.svg" alt="fleche vers le haut" class="up">
+          <p class="nbTodayUp">1099 Today</p>
+        </div>
+      </div>
+
+      <div class="card card-youtube">
+        <div class="media">
+          <img src="/images/icon-youtube.svg" alt="logo de youtube" class="logo">
+          <p class="pseudo">Nathan F.</p>
+        </div>
+        <h1 class="nbFollowers">8239</h1>
+        <p class="followers">SUBSCRIBERS</p>
+        <div class="today">
+          <img src="./images/icon-down.svg" alt="fleche vers le haut" class="down">
+          <p class="nbTodayDown">144 Today</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
